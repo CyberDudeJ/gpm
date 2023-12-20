@@ -1,8 +1,8 @@
-{
-  [ 
+[
+  {
     "ID": "0",
     "Name": "2048",
     "Repo": "https://github.com/CyberDudeJ/2048_install_script",
     "RunScript": "python3 ./2048_install_script/get2048.py"
-  ]
-}
+  {
+]
