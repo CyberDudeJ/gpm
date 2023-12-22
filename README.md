@@ -10,3 +10,6 @@ To download and install gpm do:
 
 ### Packages
 The packages are listed within the ``packagelist.json`` file. If you would like to add a package, please fork this repo then create a PR.
+
+### NOTICE:
+This currently works on ubuntu and debian.
