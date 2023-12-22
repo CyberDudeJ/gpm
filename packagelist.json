@@ -10,12 +10,14 @@
   {
     "ID": "1",
     "Name": "btop",
+    "Deps": "None",
     "RunScript": "apt-get install btop -y",
     "WorkingDirectory": "None"
   },
   {
     "ID": "2",
     "Name": "gcc",
+    "Deps": "None",
     "RunScript": "apt-get install gcc -y",
     "WorkingDirectory": "None"
   }
