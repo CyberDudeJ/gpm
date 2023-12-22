@@ -5,7 +5,7 @@
     "Repo": "https://github.com/CyberDudeJ/2048",
     "RunScript": "gcc -o ./2048/2048 ./2048/2048.c && mv ./2048/2048 /usr/bin && rm -rf ./2048",
     "WorkingDirectory": "2048"
-  }
+  },
   {
     "ID": "1",
     "Name": "btop",
