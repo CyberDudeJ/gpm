@@ -23,6 +23,8 @@ def exec_remove_wd(directory):
     output = stream.read()
     output
 
+    return output
+
 def running_as_root() -> bool:
     return os.getuid() == 0
 
@@ -37,10 +39,15 @@ if running_as_root() == True:
         if searchPackage == i['Name']:
             acceptdeny = input("You are attempting to install the selected package. Would you like to continue? [y/n] ")
             if acceptdeny == "y":
-                exec_download_git(i['Repo'])
-                exec_cmd(i['RunScript'])
-                exec_remove_wd(i['WorkingDirectory'])
-                print("[SUCCESS] Package was installed successfully.")
+                if i['WorkingDirectory'] == "None":
+                    exec_download_git(i['Repo'])
+                    exec_download_cmd(i['RunScript'])
+                    print("[INFO] GPM has finished. Exiting Application")
+                else:
+                    exec_download_git(i['Repo'])
+                    exec_cmd(i['RunScript'])
+                    exec_remove_wd(i['WorkingDirectory'])
+                    print("[INFO] GPM has finished. Exiting Application")
             elif acceptdeny == "n":
                 print("Package installation aborted.")
             else:
