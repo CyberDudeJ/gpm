@@ -2,6 +2,7 @@
   {
     "ID": "0",
     "Name": "2048",
+    "Deps": "gcc git",
     "Repo": "https://github.com/CyberDudeJ/2048",
     "RunScript": "gcc -o ./2048/2048 ./2048/2048.c && mv ./2048/2048 /usr/bin && rm -rf ./2048",
     "WorkingDirectory": "2048"
@@ -10,6 +11,12 @@
     "ID": "1",
     "Name": "btop",
     "RunScript": "apt-get install btop -y",
+    "WorkingDirectory": "None"
+  },
+  {
+    "ID": "2",
+    "Name": "gcc",
+    "RunScript": "apt-get install gcc -y",
     "WorkingDirectory": "None"
   }
 ]
