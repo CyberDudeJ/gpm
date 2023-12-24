@@ -13,7 +13,7 @@ To download and install gpm execute the following command: (Replace "BRANCH" wit
 
 #### Usage
 * To install a package use: ``gpm get <package_name_here>`` or ``gpm install <package_name_here>``
-* To get the help page use: ``gpm h`` or ``gpm help``
+* To get the help page use: ``gpm h`` or ``gpm help`` (will currently redirect you here)
 
 
 ### Packages & Adding new packages
