@@ -54,7 +54,7 @@ def main():
         if len(sys.argv) > 2:
                arg2 = sys.argv[2]
                # If arg2 is provided, load package list json file
-               jsonurl = "https://raw.githubusercontent.com/CyberDudeJ/gpm/1.2/packagelist.json"
+               jsonurl = "https://raw.githubusercontent.com/CyberDudeJ/gpm/main/packagelist.json"
                resp = requests.get(jsonurl)
                data = json.loads(resp.text)
                #print(data) # debug
