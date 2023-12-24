@@ -11,6 +11,11 @@ To download and install gpm execute the following command: (Replace "BRANCH" wit
 * If not as root user: ```wget https://raw.githubusercontent.com/CyberDudeJ/gpm/BRANCH/gpm.py && cp gpm.py gpm && rm gpm.py && sudo chmod +x gpm && sudo mv gpm /usr/bin```
 * If as root user: ```wget https://raw.githubusercontent.com/CyberDudeJ/gpm/BRANCH/gpm.py && cp gpm.py gpm && rm gpm.py && chmod +x gpm && mv gpm /usr/bin```
 
+#### Usage
+* To install a package use: ``gpm get <package_name_here>`` or ``gpm install <package_name_here>``
+* To get the help page use: ``gpm h`` or ``gpm help``
+
+
 ### Packages & Adding new packages
 The packages are listed within the ``packagelist.json`` file. If you would like to add a package, please fork this repo then create a PR. 
 
