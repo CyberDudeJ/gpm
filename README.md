@@ -7,9 +7,9 @@ GPM must be run as root.
 ### Running
 The application requires the user to be running it as root or with elevated privileges.
 
-To download and install gpm execute the following command::
-* If not as root user: ```wget https://raw.githubusercontent.com/CyberDudeJ/gpm/1.2/gpm.py && cp gpm.py gpm && rm gpm.py && sudo chmod +x gpm && sudo mv gpm /usr/bin```
-* If as root user: ```wget https://raw.githubusercontent.com/CyberDudeJ/gpm/1.2/gpm.py && cp gpm.py gpm && rm gpm.py && chmod +x gpm && mv gpm /usr/bin```
+To download and install gpm execute the following command: (Replace "BRANCH" with the version you would like to install. E.g. to use the main branch replace it with ``main`` which always holds the latest stable release)
+* If not as root user: ```wget https://raw.githubusercontent.com/CyberDudeJ/gpm/BRANCH/gpm.py && cp gpm.py gpm && rm gpm.py && sudo chmod +x gpm && sudo mv gpm /usr/bin```
+* If as root user: ```wget https://raw.githubusercontent.com/CyberDudeJ/gpm/BRANCH/gpm.py && cp gpm.py gpm && rm gpm.py && chmod +x gpm && mv gpm /usr/bin```
 
 ### Packages & Adding new packages
 The packages are listed within the ``packagelist.json`` file. If you would like to add a package, please fork this repo then create a PR. 
