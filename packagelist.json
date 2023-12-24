@@ -12,5 +12,12 @@
     "Deps": "None",
     "InstallType": "External",
     "RunScript": "None"
+  },
+  {
+    "ID": "2",
+    "Name": "cmatrix",
+    "Deps": "None",
+    "InstallType": "External",
+    "RunScript": "None"
   }
 ]
