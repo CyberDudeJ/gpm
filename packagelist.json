@@ -8,6 +8,6 @@
   {
     "ID": "1",
     "Name": "btop",
-    "InstallType": "External",
+    "InstallType": "External"
   }
 ]
