@@ -4,7 +4,7 @@
     "Name": "2048",
     "Deps": "gcc git",
     "InstallType": "Local",
-    "RunScript": "gcc -o ./2048/2048 ./2048/2048.c && mv ./2048/2048 /usr/bin && rm -rf ./2048"
+    "RunScript": "git clone https://github.com/CyberDudeJ/2048 && gcc -o ./2048/2048 ./2048/2048.c && mv ./2048/2048 /usr/bin && rm -rf ./2048"
   },
   {
     "ID": "1",
