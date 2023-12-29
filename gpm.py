@@ -81,7 +81,7 @@ def main():
                            while True:
                                packageManager = find_package_manager()
                                if packageManager:
-                                   print(f"found external package manager: {packageManager}")
+                                   print(f"[INFO] Found external package manager: {packageManager}")
                                    continueBoolean = input("Would you like to continue? [y/n] ") # Ask if user would like to continue
                                    if continueBoolean == "y": # if continue = y (aka yes), then continue install
                                        if packageManager == "apt": # if packageManager = apt then use apt cmd
@@ -103,10 +103,10 @@ def main():
                                    sys.exit(1) # exit once done
         else:
                # If arg2 is not provided, end script
-               print(f"Arg2 is required for {arg1} to function correctly.")
+               print(f"[WARN] Arg2 is required for {arg1} to function correctly. Exiting.")
                sys.exit(1)
     else:
-        print("Invalid cmd")
+        print("[WARN] Invalid cmd. Exiting.")
 
 # Check what platform gpm is being run on
 platform = platform.system()
